@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+// 1. Utils
+@import "utils/queries", "utils/mixins", "utils/variables";
+
+// 2. Base stuff
+@import "base/reset", "base/typography";
+
+// 3. Components
+
+// 4. Layout-related sections
+@import "./layout/navigation";
+
+// 5. Page-specific styles
