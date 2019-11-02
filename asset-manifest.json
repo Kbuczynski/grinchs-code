@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/grinchs-code/static/css/main.786b675c.chunk.css",
+    "main.js": "/grinchs-code/static/js/main.8909a825.chunk.js",
+    "main.js.map": "/grinchs-code/static/js/main.8909a825.chunk.js.map",
+    "runtime-main.js": "/grinchs-code/static/js/runtime-main.824c13a9.js",
+    "runtime-main.js.map": "/grinchs-code/static/js/runtime-main.824c13a9.js.map",
+    "static/js/2.a6b4d57b.chunk.js": "/grinchs-code/static/js/2.a6b4d57b.chunk.js",
+    "static/js/2.a6b4d57b.chunk.js.map": "/grinchs-code/static/js/2.a6b4d57b.chunk.js.map",
+    "index.html": "/grinchs-code/index.html",
+    "precache-manifest.a0cd7a66a22ac7d262948f2cdc30e3bf.js": "/grinchs-code/precache-manifest.a0cd7a66a22ac7d262948f2cdc30e3bf.js",
+    "service-worker.js": "/grinchs-code/service-worker.js",
+    "static/css/main.786b675c.chunk.css.map": "/grinchs-code/static/css/main.786b675c.chunk.css.map",
+    "static/media/avatar1.png": "/grinchs-code/static/media/avatar1.fdeb6675.png",
+    "static/media/avatar2.png": "/grinchs-code/static/media/avatar2.837a944f.png",
+    "static/media/avatar3.png": "/grinchs-code/static/media/avatar3.ec9aab28.png",
+    "static/media/avatar4.png": "/grinchs-code/static/media/avatar4.5e1353d5.png",
+    "static/media/main.scss": "/grinchs-code/static/media/home.af4be400.jpg",
+    "static/media/logo-header.png": "/grinchs-code/static/media/logo-header.3037cf57.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.824c13a9.js",
+    "static/js/2.a6b4d57b.chunk.js",
+    "static/css/main.786b675c.chunk.css",
+    "static/js/main.8909a825.chunk.js"
+  ]
+}
