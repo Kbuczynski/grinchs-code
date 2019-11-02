@@ -2,7 +2,7 @@
   "name": "grinchs-code",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kbuczynski.github.io/grinchs-code",
+  "homepage": "https://kbuczynski.github.io/grinchs-code/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0",
