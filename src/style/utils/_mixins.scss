@@ -1,0 +1,23 @@
+@mixin title() {
+  position: relative;
+  color: #000;
+  font-size: 4rem;
+  line-height: 0;
+}
+
+@mixin beforeTitle($text) {
+  content: $text;
+  color: $green;
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+  font-size: 6rem;
+  opacity: 50%;
+  z-index: -1;
+}
+
+@mixin section {
+  width: 100vw;
+  height: 75vh;
+  margin: 0 20vw 0 20vw;
+}

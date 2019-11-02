@@ -1,10 +1,26 @@
 import React from "react";
 import Timer from "./Timer";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
     <div className="home">
-      <Timer />
+      <div className="home__box">
+        <h3 className="home__box__title">Widzimy się już za:</h3>
+        <Timer />
+        <div className="home__box__btn">
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Jak to działa?
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };

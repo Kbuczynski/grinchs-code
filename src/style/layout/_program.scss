@@ -1,0 +1,22 @@
+.program {
+  position: relative;
+  @include section;
+
+  &__title {
+    & > h3 {
+      @include title();
+
+      &::before {
+        @include beforeTitle("Program");
+      }
+    }
+  }
+
+  &__timeline {
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+  }
+}

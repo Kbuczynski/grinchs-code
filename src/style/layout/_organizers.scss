@@ -1,0 +1,43 @@
+.organizers {
+  @include section;
+
+  &__title {
+    & > h3 {
+      @include title();
+
+      &::before {
+        @include beforeTitle("Organizatorzy");
+      }
+    }
+  }
+
+  &__grid {
+    margin: 8rem 40vw 0 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    &__box {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      & > img {
+        width: 70%;
+        height: 70%;
+      }
+
+      & > a {
+        position: absolute;
+        left: 50%;
+        bottom: -3.5rem;
+        transform: translateX(-50%);
+
+        & > i {
+          font-size: 2rem;
+          color: $green;
+        }
+      }
+    }
+  }
+}

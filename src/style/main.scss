@@ -7,8 +7,10 @@
 @import "base/reset", "base/typography";
 
 // 3. Components
+@import "./components/button";
 
 // 4. Layout-related sections
-@import "./layout/navigation";
+@import "./layout/navigation", "./layout/home", "./layout/about",
+  "./layout/program", "./layout/organizers", "./layout/footer";
 
 // 5. Page-specific styles
