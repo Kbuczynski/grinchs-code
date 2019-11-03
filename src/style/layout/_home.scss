@@ -1,15 +1,16 @@
 .home {
-  position: relative;
   width: 100%;
-  height: 100vh;
-  background: url("../img/home.jpg") no-repeat;
-  background-attachment: fixed;
+  height: 90vh;
+  margin-top: 10vh;
+  background: url("../img/home.jpg") no-repeat fixed;
+  background-position-x: center;
+  max-height: 700px;
 
   &__box {
-    position: absolute;
+    position: relative;
     left: 50%;
-    top: 45%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    transform: translate(-50%, -20%);
 
     & > section {
       width: 100%;
@@ -22,10 +23,11 @@
     }
 
     &__title {
+      width: calc(100% - 5px);
+      word-break: break-word;
       text-align: center;
       color: #fff;
       font-size: 4rem;
-      line-height: 0;
       font-weight: 400;
     }
 
@@ -37,5 +39,19 @@
 
       @include button(#fff);
     }
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .home {
+  max-height: none;
+    height: 90vh;
+    background-position-x: left;
+  }
+
+  .navigation__logo {
+    display: none;
+
   }
 }
