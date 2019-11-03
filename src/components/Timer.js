@@ -2,15 +2,18 @@ import React, { Component } from "react";
 import FlipNumbers from "react-flip-numbers";
 import Countdown from "react-countdown-now";
 
+const numSize = window.innerWidth > 800 ? 100 : 50;
+
 class Timer extends Component {
+
   handleRender = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
       return <p>koniec</p>;
     } else {
       return (
         <FlipNumbers
-          height={100}
-          width={100}
+          height={numSize}
+          width={numSize}
           color="#fff"
           background="none"
           play

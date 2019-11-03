@@ -13,19 +13,24 @@ const About = () => {
       ico: "fas fa-code",
       title: "Programuj",
       text:
-        "Pokaż co potrafisz 😎 zakoduj niesamowitą aplikację, grę, a może stronę internetową? Myślisz, że nie dasz rady po to są nasi mentorzy!"
+        "Pokaż co potrafisz 😎 stwórz niesamowitą aplikację, grę, albo stronę internetową. Myślisz, że nie dasz rady? Nasi mentorzy Ci pomogą!"
     },
     {
       ico: "fas fa-trophy",
       title: "Zwyciężaj",
       text:
-        "Dla wygranej drużyny 🏆 szykujemy vouchery o wartości 100 PLN do wykorzystania w sklepie x-kom oraz podwyższenie ocen z przedmiotów zawodowych!"
+        "Dla wygranej drużyny 🏆 szykujemy wyjątkową nagrodę rzeczową, a dla wszystkich - podwyższenie ocen z przedmiotów zawodowych!"
     }
   ];
   return (
+      <div className="about-container">
     <div className="about">
       <div className="about__title">
-        <h3>O nas</h3>
+        <h3>Jak to działa?</h3>
+      </div>
+      <div className={"about__desc"}>
+        <span>Hackathon to 24-godzinny maraton kodowania. W tym czasie całą drużyną tworzycie program na temat,
+              który zostanie podany dopiero przy rozpoczęciu wydarzenia :)</span>
       </div>
       <div className="about__grid">
         {icons.map((icon, index) => {
@@ -35,6 +40,7 @@ const About = () => {
         })}
       </div>
     </div>
+      </div>
   );
 };
 

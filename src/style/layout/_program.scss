@@ -1,9 +1,19 @@
-.program {
-  position: relative;
+.program-container {
   @include section;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  max-height: 700px;
+}
+
+.program {
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
 
   &__title {
     & > h3 {
+      margin-left: 100px;
       @include title();
 
       &::before {
@@ -13,10 +23,32 @@
   }
 
   &__timeline {
-    position: absolute;
-    left: 30%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-    width: 30%;
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .program__title > h3 {
+    margin-left: 0;
+  }
+
+  .program-container {
+  max-height: none;
+    height: auto;
+    padding-bottom: 120px;
+    margin: 0;
+  }
+
+  .program__timeline {
+    width: 100%;
+
+    .time-line-ctnr .time-line li span,
+    .time-line-ctnr .time-line li div .time-line-header {
+      font-size: 24px;
+    }
   }
 }

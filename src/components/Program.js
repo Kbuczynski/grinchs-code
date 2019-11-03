@@ -14,6 +14,7 @@ const Program = () => {
   ];
 
   return (
+      <div className="program-container">
     <div className="program">
       <div className="program__title">
         <h3>Program</h3>
@@ -22,6 +23,7 @@ const Program = () => {
         <Timeline items={events} />
       </div>
     </div>
+      </div>
   );
 };
 

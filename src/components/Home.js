@@ -8,15 +8,14 @@ const Home = () => {
       <div className="home__box">
         <h3 className="home__box__title">Widzimy się już za:</h3>
         <Timer />
-        <div className="home__box__btn">
+        <div className="border-radius-anim home__box__btn">
           <Link
             activeClass="active"
             to="about"
             spy={true}
             smooth={true}
-            offset={-70}
-            duration={500}
-          >
+            offset={-150}
+            duration={500}>
             Jak to działa?
           </Link>
         </div>
