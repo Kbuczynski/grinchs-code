@@ -1,7 +1,14 @@
 @charset 'UTF-8';
 
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 // 1. Utils
-@import "utils/queries", "utils/mixins", "utils/variables";
+@import "utils/queries", "utils/mixins", "utils/variables", "utils/effects";
 
 // 2. Base stuff
 @import "base/reset", "base/typography";

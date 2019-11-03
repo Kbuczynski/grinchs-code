@@ -6,6 +6,7 @@
 }
 
 @mixin beforeTitle($text) {
+  overflow: hidden;
   content: $text;
   color: $green;
   position: absolute;
@@ -17,7 +18,5 @@
 }
 
 @mixin section {
-  width: 100vw;
-  height: 75vh;
-  margin: 0 20vw 0 20vw;
+  width: 100%;
 }
