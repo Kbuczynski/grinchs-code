@@ -1,6 +1,6 @@
 .organizers-container {
   @include section;
-  height: 50vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
 }
@@ -61,13 +61,12 @@
 }
 
 @media (max-width: 1000px) {
-
   .organizers__title > h3 {
     margin: 0;
   }
 
   .organizers-container {
-  max-height: none;
+    max-height: none;
     height: auto;
   }
 

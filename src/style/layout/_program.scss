@@ -1,6 +1,6 @@
 .program-container {
   @include section;
-  height: 75vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
 }
@@ -30,13 +30,12 @@
 }
 
 @media (max-width: 1000px) {
-
   .program__title > h3 {
     margin-left: 0;
   }
 
   .program-container {
-  max-height: none;
+    max-height: none;
     height: auto;
     padding-bottom: 120px;
     margin: 0;
