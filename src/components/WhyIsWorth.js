@@ -1,40 +1,44 @@
 import React from "react";
-import Icon from "./Icon";
 
 const WhyIsWorth = () => {
     const cards = [
         {
             ico: "fas fa-utensils",
             title: "PIZZA, ZIMNE NAPOJE, PRZEKĄSKI",
+            style: "border-bottom border-right",
             text:
-                "Na naszym hackathonie nie będziesz chodził głodny!"
+                "Na naszym hackathonie nie będziesz chodził głodny! Zapewniamy kolację, pyszne śniadanie i stały dostęp do zimnych napoi i przekąsek."
         },
         {
             ico: "fas fa-gamepad",
             title: "CHILLROOM, GAMEROOM, SLEEPROOM",
+            style: "border-bottom",
             text:
                 "Przygotowaliśmy dla Ciebie specjalne sale, gdzie do Twojej dyspozycji będzie konsola, VR, ping pong, piłkarzyki i o wiele więcej!"
         },
         {
             ico: "fab fa-playstation",
-            title: "Turniej w FIFA 20 i Tekken 7",
+            title: "TURNIEJ W FIFA 20 I TEKKEN 7",
+            style: "border-right",
             text:
-                "24 godziny ciągłego kodowania to kawał czasu, dlatego właśnie w ramach odpoczynku 'dla umysłu' organizujemy turniej na konsoli PS4 :)"
+                "24 godziny ciągłego kodowania to kawał czasu, dlatego w ramach odpoczynku 'dla umysłu' organizujemy turniej na konsoli PS4 :)"
         },
         {
             ico: "fas fa-user-tie",
             title: "POMOC MENTORÓW I NAUCZYCIELI",
+            style: "",
             text:
-                "Nie jesteś pewny swoich umiejętności? Nie stresuj się! Możesz liczyć na pomoc doświadczonych mentorów i nauczycieli"
+                "Nie jesteś pewny swoich umiejętności? Nie stresuj się! Możesz liczyć na pomoc doświadczonych mentorów i nauczycieli."
         }
     ];
 
-    const Card = (index, ico, title, text) => {
+    const Card = (props) => {
+        const {ico, title, text, style} = props;
         return (
-        <div className="why-worth__cards__box" key={index}>
+        <div className={`why-worth__cards__box ${style}`}>
             <div className={"why-worth__cards__box__left"}>
-                <h4>{title}</h4>
-                <p>{text}</p>
+                <div className={"why-worth__cards__box__left__title"}>{title}</div>
+                <p className={"why-worth__cards__box__left__text"}>{text}</p>
             </div>
             <div className={"why-worth__cards__box__right"}>
                 <i className={ico} />
@@ -47,12 +51,12 @@ const WhyIsWorth = () => {
         <div className="why-worth-container">
             <div className="why-worth">
                 <div className="why-worth__title">
-                    <h3>Dlaczego warto wziąć udział?</h3>
+                    <span>Dlaczego warto wziąć udział?</span>
                 </div>
                 <div className={"why-worth__cards"}>
                     {cards.map((card, index) => {
-                        const { ico, title, text } = card;
-                        return <Card index={index} ico={ico} title={title} text={text} />;
+                        const { ico, title, text, style } = card;
+                        return <Card key={index} ico={ico} title={title} text={text} style={style} />;
                     })}
                 </div>
             </div>

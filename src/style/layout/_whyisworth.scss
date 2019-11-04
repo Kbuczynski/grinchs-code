@@ -1,6 +1,6 @@
 .why-worth-container {
   @include section;
-  height: 90vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
 }
@@ -11,35 +11,84 @@
   max-width: 1200px;
 
   &__title {
-    & > h3 {
-      margin-left: 100px;
-      @include title();
+    margin-left: 100px;
 
-      &::before {
-        @include beforeTitle("Dlaczego warto wziąć udział?");
-      }
+    & > span {
+      @include title();
+      line-height: 1;
+      font-weight: 600;
     }
   }
 
   &__cards {
       display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
 
     &__box {
-      width: 400px;
-      height: 300px;
+      width: 500px;
+      min-height: 300px;
+      display: flex;
+      margin: 30px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
 
       &__left {
-        width: 80%;
-        background-color: #83b748;
+        padding-left: 20px;
+        width: 65%;
+        height: 100%;
+        text-align: center;
+
+        &__title {
+          font-size: 1.6rem;
+          font-weight: 600;
+          margin: 40px 20px 20px 20px;
+        }
+
+        &__text {
+          margin: 10px;
+          font-size: 1.2rem;
+        }
+
       }
 
       &__right {
+        width: 40%;
+        height: 100%;
         display: flex;
-        background-color: #E51D38;
+        justify-content: center;
+        align-items: center;
+
+        & > i {
+          font-size: 6rem;
+          color: $green;
+        }
+
+      }
+
+      &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
       }
 
     }
 
+    //.border-right {
+    //  border-right: 2px dashed $red;
+    //}
+    //.border-bottom {
+    //  border-bottom: 2px dashed $red;
+    //}
+
   }
 
+}
+
+@media (max-width: 1000px) {
+  .why-worth-container {
+    margin-top: 100px;
+  }
+  .why-worth__title {
+      margin-left: 20px;
+  }
 }

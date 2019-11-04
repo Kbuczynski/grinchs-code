@@ -7,13 +7,13 @@ const About = () => {
       ico: "fas fa-users",
       title: "Zbierz zespół",
       text:
-        "Zbierz zespół maksymalnie 3 osobowy lub wystartuj sam! Na każdego będzie czekać gorąca pizza 🍕 Wpisowe to jedynie 10zł/os."
+        "Zbierz zespół maksymalnie 3 osobowy lub wystartuj sam! Wpisowe to jedynie 10zł/os."
     },
     {
       ico: "fas fa-code",
       title: "Programuj",
       text:
-        "Pokaż co potrafisz 😎 stwórz niesamowitą aplikację, grę, albo stronę internetową. Myślisz, że nie dasz rady? Nasi mentorzy Ci pomogą!"
+        "Pokaż co potrafisz 😎 stwórz niesamowitą aplikację, grę, albo stronę internetową!"
     },
     {
       ico: "fas fa-trophy",

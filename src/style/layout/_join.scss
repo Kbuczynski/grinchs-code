@@ -1,0 +1,63 @@
+.join-container {
+  display: flex;
+  width: 100vw;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/background_join.jpg) no-repeat;
+  background-position-x: center;
+  margin-bottom: 100px;
+}
+
+.join {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+
+  &__title {
+    font-size: 3em;
+    font-weight: 600;
+  }
+
+  &__desc {
+    font-size: 1.5em;
+  }
+
+  &__buttons {
+    display: flex;
+    margin-top: 7vh;
+    justify-content: space-between;
+    width: 50%;
+
+    &__btn {
+      @include button(#fff);
+      font-size: 1.5rem;
+      padding: 1rem 1.5rem 1rem 1.5rem;
+      width: auto;
+      height: 1.7rem;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .join-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .join__buttons {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    &__btn {
+      margin-top: 20px;
+    }
+
+  }
+}

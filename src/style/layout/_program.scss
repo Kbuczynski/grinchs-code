@@ -34,7 +34,7 @@
 
   .time-line-ctnr .time-line li span,
   .time-line-ctnr .time-line li div .time-line-header {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -52,14 +52,16 @@
 
   .program__timeline {
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+
+    .time-line-ctnr .time-line > li > .time-line-item .time {
+      font-size: 20px;
+    }
 
     .time-line-ctnr .time-line li span,
     .time-line-ctnr .time-line li div .time-line-header {
       font-size: 24px;
-    }
-
-    .time-line-ctnr .time-line > li > .time-line-item .time {
-      font-size: 20px;
     }
   }
 }

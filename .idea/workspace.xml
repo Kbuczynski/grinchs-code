@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e367589-fd5e-461c-b5d4-21c6164d36bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/WhyIsWorth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/layout/_whyisworth.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Join.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/img/background_join.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/layout/_join.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Program.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Program.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WhyIsWorth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WhyIsWorth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/layout/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/layout/_about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/layout/_program.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/layout/_program.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/layout/_whyisworth.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/layout/_whyisworth.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/utils/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/utils/_variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +44,9 @@
     <property name="ts.external.directory.path" value="D:\Programy\IntelliJ IDEA 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\angel\Desktop\grinchs-code\src\style\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\angel\Desktop\grinchs-code\src\components" />
     </key>

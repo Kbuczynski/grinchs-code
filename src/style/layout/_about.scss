@@ -15,10 +15,6 @@
     & > h3 {
       margin-left: 100px;
       @include title();
-
-      &::before {
-        @include beforeTitle("Hackathon");
-      }
     }
   }
 
@@ -29,6 +25,7 @@
     text-align: center;
 
     & > span {
+      font-size: 18px;
       width: 600px;
     }
   }
@@ -40,6 +37,9 @@
 
     &__box {
       text-align: center;
+      font-size: 18px;
+      margin: 10px;
+
       & > i {
         background: $green;
         border-radius: 50%;
@@ -61,10 +61,6 @@
       position: relative;
       line-height: 1;
       margin-left: 10px;
-
-      &::before {
-        display: none;
-      }
     }
   }
 
@@ -72,8 +68,8 @@
     height: auto;
   }
 
-  .about__desc {
-    font-size: 24px;
+  .about__desc span {
+      font-size: 24px;
   }
 
   .about__grid {
