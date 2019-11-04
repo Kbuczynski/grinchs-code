@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e367589-fd5e-461c-b5d4-21c6164d36bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/formularz.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/regulamin.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/zgoda.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/layout/_join.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/layout/_join.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/components/_burger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/components/_burger.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
