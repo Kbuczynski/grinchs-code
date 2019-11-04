@@ -27,6 +27,15 @@
     margin-left: 10%;
     margin-right: 10%;
   }
+
+  .time-line-ctnr .time-line > li > .time-line-item .time {
+    font-size: 17px;
+  }
+
+  .time-line-ctnr .time-line li span,
+  .time-line-ctnr .time-line li div .time-line-header {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -47,6 +56,10 @@
     .time-line-ctnr .time-line li span,
     .time-line-ctnr .time-line li div .time-line-header {
       font-size: 24px;
+    }
+
+    .time-line-ctnr .time-line > li > .time-line-item .time {
+      font-size: 20px;
     }
   }
 }

@@ -1,0 +1,45 @@
+.why-worth-container {
+  @include section;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.why-worth {
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+
+  &__title {
+    & > h3 {
+      margin-left: 100px;
+      @include title();
+
+      &::before {
+        @include beforeTitle("Dlaczego warto wziąć udział?");
+      }
+    }
+  }
+
+  &__cards {
+      display: flex;
+
+    &__box {
+      width: 400px;
+      height: 300px;
+
+      &__left {
+        width: 80%;
+        background-color: #83b748;
+      }
+
+      &__right {
+        display: flex;
+        background-color: #E51D38;
+      }
+
+    }
+
+  }
+
+}
