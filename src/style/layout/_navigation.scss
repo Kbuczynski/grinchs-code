@@ -10,6 +10,16 @@
   box-shadow: 0 0 10px gray;
 }
 
+.navigation-container-burger {
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+}
+
 .navigation {
   display: flex;
   justify-content: space-evenly;

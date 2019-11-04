@@ -5,6 +5,8 @@ import About from "./components/About";
 import Program from "./components/Program";
 import Organizers from "./components/Organizers";
 import Footer from "./components/Footer";
+import WhyIsWorth from "./components/WhyIsWorth";
+import Join from "./components/Join";
 
 const App = () => {
   return (
@@ -12,7 +14,9 @@ const App = () => {
       <Navigation />
       <Home />
       <About />
+      <WhyIsWorth/>
       <Program />
+      <Join />
       <Organizers />
       <Footer />
     </div>
