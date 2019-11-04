@@ -14,16 +14,16 @@ const Program = () => {
   ];
 
   return (
-      <div className="program-container">
-    <div className="program">
-      <div className="program__title">
-        <h3>Program</h3>
-      </div>
-      <div className="program__timeline">
-        <Timeline items={events} />
+    <div className="program-container">
+      <div className="program">
+        <div className="program__title">
+          <h3>Program</h3>
+        </div>
+        <div className="program__timeline">
+          <Timeline items={events} />
+        </div>
       </div>
     </div>
-      </div>
   );
 };
 
