@@ -12,30 +12,30 @@ const Organizers = () => {
     { img: av4, msg: "Vergilek", name: "Adam Hallmann" }
   ];
   return (
-      <div className="organizers-container">
-    <div className="organizers">
-      <div className="organizers__title">
-        <h3>Organizatorzy</h3>
-      </div>
-      <div className="organizers__grid">
-        {organizers.map((organizer, index) => {
-          const { img, msg, name } = organizer;
-          return <Circle key={index} img={img} msg={msg} name={name} />;
-        })}
+    <div className="organizers-container">
+      <div className="organizers">
+        <div className="organizers__title">
+          <h3>Organizatorzy</h3>
+        </div>
+        <div className="organizers__grid">
+          {organizers.map((organizer, index) => {
+            const { img, msg, name } = organizer;
+            return <Circle key={index} img={img} msg={msg} name={name} />;
+          })}
+        </div>
       </div>
     </div>
-      </div>
   );
 };
 
 const Circle = props => {
   const { img, msg, name } = props;
-  const link = `https://www.facebook.com/messages/t/${msg}`;
+  const link = `http://m.me/${msg}`;
 
   return (
     <div className="organizers__grid__box">
       <img src={img} alt="organizator" />
-        <span>{name}</span>
+      <span>{name}</span>
       <a href={link}>
         <i className="fab fa-facebook-messenger border-radius-anim" />
       </a>

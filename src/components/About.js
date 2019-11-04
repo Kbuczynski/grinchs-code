@@ -23,24 +23,26 @@ const About = () => {
     }
   ];
   return (
-      <div className="about-container">
-    <div className="about">
-      <div className="about__title">
-        <h3>Jak to działa?</h3>
-      </div>
-      <div className={"about__desc"}>
-        <span>Hackathon to 24-godzinny maraton kodowania. W tym czasie całą drużyną tworzycie program na temat,
-              który zostanie podany dopiero przy rozpoczęciu wydarzenia :)</span>
-      </div>
-      <div className="about__grid">
-        {icons.map((icon, index) => {
-          const { ico, title, text } = icon;
-
-          return <Icon key={index} ico={ico} title={title} text={text} />;
-        })}
+    <div className="about-container">
+      <div className="about">
+        <div className="about__title">
+          <h3>Jak to działa?</h3>
+        </div>
+        <div className={"about__desc"}>
+          <span>
+            Hackathon to 24-godzinny maraton kodowania. W tym czasie całą
+            drużyną tworzycie program na temat, który zostanie podany dopiero
+            przy rozpoczęciu wydarzenia :)
+          </span>
+        </div>
+        <div className="about__grid">
+          {icons.map((icon, index) => {
+            const { ico, title, text } = icon;
+            return <Icon key={index} ico={ico} title={title} text={text} />;
+          })}
+        </div>
       </div>
     </div>
-      </div>
   );
 };
 
