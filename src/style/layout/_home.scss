@@ -42,15 +42,19 @@
 }
 
 @media (max-width: 1000px) {
-
   .home {
-  max-height: none;
+    max-height: none;
     height: 90vh;
     background-position-x: left;
   }
 
   .navigation__logo {
     display: none;
+  }
 
+  .timer-mobile {
+    text-align: center;
+    font-size: 4.5rem;
+    color: #fff;
   }
 }

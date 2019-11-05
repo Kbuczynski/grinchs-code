@@ -36,7 +36,7 @@ const Circle = props => {
     <div className="organizers__grid__box">
       <img src={img} alt="organizator" />
       <span>{name}</span>
-      <a href={link}>
+      <a href={link} target="_blank">
         <i className="fab fa-facebook-messenger border-radius-anim" />
       </a>
     </div>
