@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="2e367589-fd5e-461c-b5d4-21c6164d36bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/components/_burger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/components/_burger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Timer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WhyIsWorth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WhyIsWorth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/layout/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/layout/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/layout/_join.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/layout/_join.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/layout/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/layout/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/layout/_organizers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/layout/_organizers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/layout/_program.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/layout/_program.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/layout/_whyisworth.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/layout/_whyisworth.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/utils/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/utils/_mixins.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +76,7 @@
       <updated>1572788461061</updated>
       <workItem from="1572788462214" duration="21981000" />
       <workItem from="1572870793988" duration="5389000" />
+      <workItem from="1572983602985" duration="1925000" />
     </task>
     <servers />
   </component>
