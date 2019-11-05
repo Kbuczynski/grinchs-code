@@ -36,7 +36,7 @@
 
       &__left {
         padding-left: 20px;
-        width: 65%;
+        width: 60%;
         height: 100%;
         text-align: center;
 
@@ -90,5 +90,14 @@
   }
   .why-worth__title {
       margin-left: 20px;
+  }
+  .why-worth__cards__box {
+    margin-left: 5px;
+  }
+  .why-worth__cards__box__left {
+    padding-left: 0;
+  }
+  .why-worth__cards__box__right i {
+    font-size: 4rem;
   }
 }

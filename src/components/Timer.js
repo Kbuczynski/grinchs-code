@@ -67,8 +67,6 @@ class Timer extends Component {
     const now = new Date();
     const time = end - now;
 
-    console.log(this.state.width);
-
     if (width > 1000)
       return (
         <Countdown

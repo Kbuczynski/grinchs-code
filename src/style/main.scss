@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+.app {
+  overflow: hidden;
+}
+
 // 1. Utils
 @import "utils/queries", "utils/mixins", "utils/variables", "utils/effects";
 

@@ -14,10 +14,6 @@
     & > h3 {
       margin-left: 100px;
       @include title();
-
-      &::before {
-        @include beforeTitle("Program");
-      }
     }
   }
 
@@ -61,7 +57,7 @@
 
     .time-line-ctnr .time-line li span,
     .time-line-ctnr .time-line li div .time-line-header {
-      font-size: 24px;
+      font-size: 20px;
     }
   }
 }

@@ -12,12 +12,12 @@
 
   &__title {
     & > h3 {
+      width: 100%;
       margin-left: 100px;
       @include title();
-
-      &::before {
-        @include beforeTitle("Organizatorzy");
-      }
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: clip;
     }
   }
 
