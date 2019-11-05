@@ -1,0 +1,16 @@
+.timer-mac {
+  text-align: center;
+  font-size: 8rem;
+  color: #fff;
+  line-height: 15vh;
+  letter-spacing: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .timer-mac {
+    text-align: center;
+    font-size: 4.5rem;
+    color: #fff;
+    letter-spacing: 0;
+  }
+}

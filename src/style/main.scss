@@ -1,16 +1,5 @@
 @charset 'UTF-8';
 
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.app {
-  overflow: hidden;
-}
-
 // 1. Utils
 @import "utils/queries", "utils/mixins", "utils/variables", "utils/effects";
 
@@ -18,10 +7,11 @@ body {
 @import "base/reset", "base/typography";
 
 // 3. Components
-@import "./components/button", './components/burger';
+@import "./components/button", "./components/burger", "./components/timer";
 
 // 4. Layout-related sections
-@import "./layout/navigation", "./layout/home", "./layout/about", "./layout/join",
-  "./layout/program", "./layout/organizers", "./layout/footer", "./layout/whyisworth";
+@import "./layout/navigation", "./layout/home", "./layout/about",
+  "./layout/join", "./layout/program", "./layout/organizers", "./layout/footer",
+  "./layout/whyisworth";
 
 // 5. Page-specific styles

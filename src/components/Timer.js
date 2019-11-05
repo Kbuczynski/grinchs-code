@@ -8,7 +8,7 @@ class Timer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      width: window.innerWidth
+      system: navigator.appVersion
     };
   }
 
@@ -45,9 +45,9 @@ class Timer extends Component {
     }
   };
 
-  handleRenderMobile = ({ days, hours, minutes, seconds, completed }) => {
+  handleRenderMac = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
-      return <div className="timer-mobile">00:00:00:00</div>;
+      return <div className="timer-mac">00:00:00:00</div>;
     } else {
       if (days < 10) days = `0${days}`;
       if (hours < 10) hours = `0${hours}`;
@@ -55,30 +55,27 @@ class Timer extends Component {
       if (seconds < 10) seconds = `0${seconds}`;
 
       return (
-        <div className="timer-mobile">{`${days}:${hours}:${minutes}:${seconds}`}</div>
+        <div className="timer-mac">{`${days}:${hours}:${minutes}:${seconds}`}</div>
       );
     }
   };
 
   render() {
-    const { width } = this.state;
+    const { system } = this.state;
 
     const end = new Date(2019, 10, 15, 17, 0, 0);
     const now = new Date();
     const time = end - now;
 
-    if (width > 1000)
+    if (system.indexOf("Mac") !== -1)
       return (
-        <Countdown
-          date={Date.now() + time}
-          renderer={this.handleRenderDesktop}
-        />
+        <Countdown date={Date.now() + time} renderer={this.handleRenderMac} />
       );
     else
       return (
         <Countdown
           date={Date.now() + time}
-          renderer={this.handleRenderMobile}
+          renderer={this.handleRenderDesktop}
         />
       );
   }
