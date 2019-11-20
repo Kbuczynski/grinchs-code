@@ -1,5 +1,7 @@
+![Grinch's Code](./ss_readme.jpg)
+
 # Grinch's Code
-## Hackathon landing page
+Hackathon landing page
 
 ## Table of contents
 * [Live](#live)
