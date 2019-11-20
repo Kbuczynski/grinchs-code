@@ -24,11 +24,15 @@ To run this project, install it locally using [npm](https://www.npmjs.com):
 
 In the project directory, you can run:
 
-### `npm i`
+```
+$ npm i
+```
 
 Installs the necessary packages
 
-#### `npm start`
+```
+$ npm start
+```
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
