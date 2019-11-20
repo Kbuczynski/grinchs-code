@@ -18,11 +18,15 @@ Project is created with:
 
 ## Setup
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-To run this project, install it locally using npm:
+To run this project, install it locally using [npm](https://www.npmjs.com):
 
 ### Available Scripts
 
 In the project directory, you can run:
+
+### `npm i`
+
+Installs the necessary packages
 
 #### `npm start`
 
