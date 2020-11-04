@@ -1,22 +1,28 @@
 ![Grinch's Code](./ss_readme.jpg)
 
 # Grinch's Code
+
 Hackathon landing page
 
 ## Table of contents
-* [Live](#live)
-* [Technologies](#technologies)
-* [Setup](#setup)
+
+- [Live](#live)
+- [Technologies](#technologies)
+- [Setup](#setup)
 
 ## Live
-[grinchscode.pl](http://grinchscode.pl/)
+
+[Grinch's code](https://kbuczynski.github.io/grinchs-code/)
 
 ## Technologies
+
 Project is created with:
-* React
-* SASS
+
+- React
+- SASS
 
 ## Setup
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 To run this project, install it locally using [npm](https://www.npmjs.com):
 
